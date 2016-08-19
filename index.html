@@ -1,0 +1,56 @@
+<html>
+    <header>
+        <title>
+            Tamagochi
+        </title>
+    </header>
+    <body>
+        <main>
+
+            <div id="reg_div">
+                <table id="reg_table">
+                    <tbody>
+                        <tr>
+                            <td> <label>Username</label></td>
+                            <td> <input type="text" name="reg_username" /></td>
+                        </tr>
+                        <tr>
+                            <td> <label>E-mail</label></td>
+                            <td> <input type="text" name="reg_email" /></td>
+                        </tr>
+                        <tr>
+                            <td> <label>Password</label></td>
+                            <td> <input type="password" name="reg_password" /></td>
+                        </tr>
+                        <tr>
+                            <td> <label>Reenter password</label></td>
+                            <td> <input type="password" name="reg_password_re" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <Button id="reg_button">Register</Button>
+                <div id="reg_error_log"></div>
+            </div>
+
+            <div id="signin_div">
+                <table id="signin_table">
+                    <tbody>
+                        <tr>
+                            <td> <label>Username</label></td>
+                            <td> <input type="text" name="signin_username" /></td>
+                        </tr>
+                        <tr>
+                            <td> <label>Password</label></td>
+                            <td> <input type="password" name="signin_password" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <Button id="signin_button">Sign in</Button>
+                <div id="signin_error_log"></div>
+            </div>
+        </main>
+
+        <script src="registeringManager.js"></script>  
+        <script src="signInManager.js"></script>
+    </body>
+</html>
